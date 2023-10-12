@@ -1,5 +1,6 @@
 package org.tnsif.UserDefinedException;
 
+@SuppressWarnings("serial")
 public class LoginCredintial extends Exception
 {
 	private String str;

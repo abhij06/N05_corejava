@@ -17,6 +17,7 @@ public class UserInterface {
 //	Ply Wood
 //	Amount needs to be paid 12750.00
 
+	@SuppressWarnings({ "resource", "unused" })
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String name,address,beroType,beroColor,woodType;

@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class JaggedArray {
 
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		Scanner s=new Scanner(System.in);
 		//in jagged array outside side is fix but not inside

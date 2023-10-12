@@ -5,6 +5,7 @@ import java.util.Scanner;
 //program to demonstrate on 2d array
 public class twoDimnestionalDemo {
 
+	@SuppressWarnings("resource")
 	public static void main(String[] args)
 	{
 		Scanner s=new Scanner(System.in);

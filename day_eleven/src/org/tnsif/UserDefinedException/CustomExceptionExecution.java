@@ -5,6 +5,7 @@ import java.util.Scanner;
 //driver class
 public class CustomExceptionExecution {
 
+	@SuppressWarnings("resource")
 	public static void main(String[] args)
 	{
 		

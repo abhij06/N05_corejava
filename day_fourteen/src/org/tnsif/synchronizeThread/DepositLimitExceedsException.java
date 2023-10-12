@@ -1,5 +1,6 @@
 package org.tnsif.synchronizeThread;
 
+@SuppressWarnings("serial")
 public class DepositLimitExceedsException extends Exception 
 {
 	public DepositLimitExceedsException() 

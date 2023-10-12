@@ -5,6 +5,7 @@ import java.io.FileNotFoundException;
 
 public class CheckedExceptionDemo {
 
+	@SuppressWarnings({ "unused", "resource" })
 	public static void main(String[] args) {
 		try 
 		{
