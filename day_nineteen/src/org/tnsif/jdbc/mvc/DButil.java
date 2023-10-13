@@ -12,10 +12,11 @@ public class DButil {
 		Properties prop=new Properties();
 		try 
 		{
+			
 			prop.load(new FileInputStream("src/db.properties"));
 			Class.forName(prop.getProperty("driver_name"));
 			//establish connection
-		   cn=DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbc","root","");
+		   cn=DriverManager.getConnection(prop.getProperty("db_url"),prop.getProperty("username"),prop.getProperty("password"));
 			
 			System.out.println("Connection Establish");
 		}
